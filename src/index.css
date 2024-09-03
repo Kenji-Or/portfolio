@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +10,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#logo{
+  width: 100px;
+}
+.nav-item:last-child {
+  margin-right: 20px; /* Ajoute un espace à droite du dernier lien */
+}
+.background-image {
+  background-image: url('./assets/images/fondAccueil1920.webp'); 
+  background-size: cover; /* Couvre tout le conteneur */
+  background-position: center; /* Centre l'image */
+  background-repeat: no-repeat; 
+  min-height: 88vh;
 }
