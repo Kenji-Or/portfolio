@@ -7,10 +7,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <Link className="navbar-brand" to="/"><img id='logo' src={logo} alt="logo" /></Link>
         <div className="navbar-collapse collapse" id='navbarNav'>
-          <ul className="navbar-nav w-100 d-flex justify-content-between">
-          <li className="nav-item">
-              <Link className="nav-link text-uppercase" to="/me">A propros</Link>
-            </li>
+          <ul className="navbar-nav w-100 d-flex justify-content-around">
             <li className="nav-item">
               <Link className="nav-link text-uppercase" to="/competences">Compétences</Link>
             </li>
