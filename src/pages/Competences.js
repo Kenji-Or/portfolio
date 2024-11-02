@@ -2,6 +2,12 @@ import React from 'react';
 import skillCategories from "../components/listCompetence";
 
 const Competences = () => {
+    const tabCompetence = () => {
+        const link = document.createElement('a');
+        link.href = `${process.env.PUBLIC_URL}/Tableau-competenceKenji.xlsx`;
+        link.download = 'TableauCompetence-Kenji_Ogier.xlsx';
+        link.click();
+    };
     return (
         <div className="container-fluid py-5 bg-light">
             <div className="container">
@@ -12,12 +18,12 @@ const Competences = () => {
                     </h1>
                     <div className="bg-gradient-to-r from-blue-600 to-cyan-500 p-4 rounded-lg shadow-lg mb-5">
                         <div className="flex justify-between items-center">
-                            <div className="text-white">
+                            <div className="text-black mb-2">
                                 <h3 className="text-xl font-semibold mb-1">Téléchargez mon tableau des compétences</h3>
                                 <p className="text-blue-100 mb-0">Découvrez mon parcours complet et mes réalisations</p>
                             </div>
                             <button
-                                className="px-4 py-2 bg-white text-blue-600 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition duration-200 flex items-center gap-2">
+                                className="btn btn-outline-dark btn-lg " onClick={tabCompetence}>
                                 <span>Télécharger</span>
                             </button>
                         </div>

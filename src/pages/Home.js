@@ -13,11 +13,13 @@ const Home = () => {
       year: '2023-2025',
       title: 'BTS SIO option SLAM',
       description: 'BTS SIO option SLAM AFIP Formations',
+      logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstorage.letudiant.fr%2Fosp%2Fcards%2F137%2Ftmp%2FLOGO-230301011731.jpg&f=1&nofb=1&ipt=8f242815342c90a35fb6d3d0a07aef6915eb71f9cd69ba5619db812615f3301a&ipo=images",
     },
     {
       year: '2019-2022',
       title: 'Bac STI2D option SIN',
       description: 'Bac STI2D option SIN Lycée Galilée',
+      logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdiplomeo-static.com%2Fdata%2Fschool%2Flogo%2F300x120%2F3002.png&f=1&nofb=1&ipt=065bca70299488fc19e58344e59548fc2a0b8983a7d3677a76ea456b3885761c&ipo=images",
     },
   ];
 
@@ -72,6 +74,8 @@ const Home = () => {
                   <div key={index} className="col-md-6 mb-4">
                     <div className="card h-100 shadow-sm">
                       <div className="card-body">
+                        <img src={item.logo} alt={item.title} className="img-fluid rounded shadow"
+                             style={{objectFit: 'contain', height: '200px', width: '100%'}}/>
                         <h5 className="card-title">{item.title}</h5>
                         <h6 className="card-subtitle mb-2 text-muted">{item.year}</h6>
                         <p className="card-text">{item.description}</p>
@@ -84,7 +88,7 @@ const Home = () => {
         </section>
 
         <section className="py-5">
-          <div className="container">
+        <div className="container">
             <h2 className="display-4 text-center mb-5">Mon parcours professionel</h2>
             <div className="row justify-content-center">
               {parcoursPro.map((item, index) => (

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React, {useEffect} from 'react';
+import {Routes, Route, useLocation} from 'react-router-dom';
 // Importer vos composants de page
 import Home from '../pages/Home';
 import Competences from '../pages/Competences';
@@ -8,6 +8,10 @@ import Veille from '../pages/Veille';
 import Contact from '../pages/Contact';
 
 const AppRoutes = () => {
+    const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
   return (
     <Routes>
       <Route path="/" element={<Home />} />
