@@ -84,7 +84,7 @@ const skillCategories = [
             },
             {
                 name: "Wamp",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wamp/wamp-original.svg"
+                icon: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbayanbox.ir%2Fpreview%2F55024440732165511%2FWampServer-logo.jpg&f=1&nofb=1&ipt=03be946ae86d0b6729b8dff59f7be52f55b8373f4d6c08d76eaf3536e20b68f7&ipo=images"
             }
         ]
     }
