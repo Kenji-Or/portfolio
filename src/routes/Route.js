@@ -6,6 +6,9 @@ import Competences from '../pages/Competences';
 import Projets from '../pages/Projets';
 import Veille from '../pages/Veille';
 import Contact from '../pages/Contact';
+import Intranet from "../pages/allProjets/Intranet";
+import TicketGenerator from '../pages/allProjets/TicketGenerator';
+import BaseGrue from "../pages/allProjets/BaseGrue";
 
 const AppRoutes = () => {
     const location = useLocation();
@@ -17,6 +20,9 @@ const AppRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/competences" element={<Competences />} />
       <Route path="/projets" element={<Projets />} />
+        <Route path="/projets/intranet" element={<Intranet />} />
+        <Route path="/projets/ticketgenerator" element={<TicketGenerator />} />
+        <Route path="/projets/basegrue" element={<BaseGrue />} />
       <Route path="/veille" element={<Veille />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>

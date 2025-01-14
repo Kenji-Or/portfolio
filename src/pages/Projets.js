@@ -1,12 +1,14 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import imageTicketGenerator from "../assets/images/accueilTicketGenerator.png";
+import imageBaseGrue from "../assets/images/accueilBaseGrue.png";
 
 const projetsFormation = [
     {
         date: "17/12/2024",
         title: "Développement d'un site intranet",
         img: "/",
-        link: "/"
+        link: "/projets/intranet"
     },
     {
         date: "17/04/2025",
@@ -24,16 +26,22 @@ const projetsProfessionnel = [
         link: "/"
     },
     {
-        date: "février 2024 - septembre 2024",
-        title: "Ajout de grosses nouveautés sur un site interne",
-        img: "/",
-        link: "/"
+        date: "février 2024 - Décembre 2024",
+        title: "Base grue",
+        img: `${imageBaseGrue}`,
+        link: "/projets/basegrue"
     },
     {
         date: "23/08/2024",
         title: "POC sur une nouvelle technologie pour afficher des données",
         img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.uco.es%2Fatdfiware%2Fimages%2Fdoc%2Fcomunica%2Ftb%2F00-thingboard.png&f=1&nofb=1&ipt=33afd783f731236e25261f952ceab5a6c056b7d0b339d0174cca400b7a55f171&ipo=images",
         link: "/"
+    },
+    {
+        date: "octobre 2024 - décembre 2024",
+        title: "Générateur de tickets",
+        img: `${imageTicketGenerator}`,
+        link: "/projets/ticketgenerator"
     }
 ]
 

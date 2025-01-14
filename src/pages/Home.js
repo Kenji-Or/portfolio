@@ -13,7 +13,7 @@ const Home = () => {
       year: '2019-2022',
       title: 'Bac STI2D option SIN',
       description: 'Bac STI2D option SIN Lycée Galilée',
-      logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdiplomeo-static.com%2Fdata%2Fschool%2Flogo%2F300x120%2F3002.png&f=1&nofb=1&ipt=065bca70299488fc19e58344e59548fc2a0b8983a7d3677a76ea456b3885761c&ipo=images",
+      logo: "https://vienne.educagri.fr/wp-content/uploads/2023/05/galilee.jpg",
     },
     {
       year: '2023-2025',
