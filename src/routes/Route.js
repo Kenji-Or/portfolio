@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {Routes, Route, useLocation} from 'react-router-dom';
+import {  Routes, Route, useLocation} from 'react-router-dom';
 // Importer vos composants de page
 import Home from '../pages/Home';
 import Competences from '../pages/Competences';
@@ -16,16 +16,18 @@ const AppRoutes = () => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
   return (
-    <Routes basename={process.env.PUBLIC_URL}>
-      <Route path="/" element={<Home />} />
-      <Route path="/competences" element={<Competences />} />
-      <Route path="/projets" element={<Projets />} />
-        <Route path="/projets/intranet" element={<Intranet />} />
-        <Route path="/projets/ticketgenerator" element={<TicketGenerator />} />
-        <Route path="/projets/basegrue" element={<BaseGrue />} />
-      <Route path="/veille" element={<Veille />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+
+        <Routes>
+            <Route path="/portfolio_KenjiOgier" element={<Home />} />
+            <Route path="/competences" element={<Competences />} />
+            <Route path="/projets" element={<Projets />} />
+                <Route path="/projets/intranet" element={<Intranet />} />
+                <Route path="/projets/ticketgenerator" element={<TicketGenerator />} />
+                <Route path="/projets/basegrue" element={<BaseGrue />} />
+            <Route path="/veille" element={<Veille />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+
   );
 };
 
