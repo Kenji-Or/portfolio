@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio_KenjiOgier/static/css/main.ae9950aa.css",
-    "main.js": "/portfolio_KenjiOgier/static/js/main.f38e6f7a.js",
+    "main.js": "/portfolio_KenjiOgier/static/js/main.e7733c41.js",
     "static/media/IA-ML.webp": "/portfolio_KenjiOgier/static/media/IA-ML.264b57a85b36059eda13.webp",
+    "static/media/basegruefichegrue.png": "/portfolio_KenjiOgier/static/media/basegruefichegrue.1f727b90f2d27ac538f0.png",
+    "static/media/drapeaubasegrue.png": "/portfolio_KenjiOgier/static/media/drapeaubasegrue.82c08001089c53af8f14.png",
     "static/media/ticketGenerator.png": "/portfolio_KenjiOgier/static/media/ticketGenerator.853265db849c2fed9124.png",
     "static/media/accueilTicketGenerator.png": "/portfolio_KenjiOgier/static/media/accueilTicketGenerator.40c83d596587ef5e22f1.png",
     "static/media/accueilBaseGrue.png": "/portfolio_KenjiOgier/static/media/accueilBaseGrue.19c3a81139c8016e0fca.png",
@@ -13,10 +15,10 @@
     "static/media/iconGlobe.svg": "/portfolio_KenjiOgier/static/media/iconGlobe.2ffc4683bd500d6ebd69517e99d8b95c.svg",
     "static/media/iconFront-end.svg": "/portfolio_KenjiOgier/static/media/iconFront-end.f9e782702352e25436d69bce2c3b7aa7.svg",
     "main.ae9950aa.css.map": "/portfolio_KenjiOgier/static/css/main.ae9950aa.css.map",
-    "main.f38e6f7a.js.map": "/portfolio_KenjiOgier/static/js/main.f38e6f7a.js.map"
+    "main.e7733c41.js.map": "/portfolio_KenjiOgier/static/js/main.e7733c41.js.map"
   },
   "entrypoints": [
     "static/css/main.ae9950aa.css",
-    "static/js/main.f38e6f7a.js"
+    "static/js/main.e7733c41.js"
   ]
 }
