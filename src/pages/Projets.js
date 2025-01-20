@@ -5,13 +5,13 @@ import imageBaseGrue from "../assets/images/accueilBaseGrue.png";
 
 const projetsFormation = [
     {
-        date: "17/12/2024",
+        date: "Octobre 2024 - Décembre 2024",
         title: "Développement d'un site intranet",
         img: "/",
         link: "/projets/intranet"
     },
     {
-        date: "17/04/2025",
+        date: "Janvier 2025 - Mars 2025",
         title: "Développement d'une application mobile",
         img: "/",
         link: "/"
@@ -26,13 +26,13 @@ const projetsProfessionnel = [
         link: "/"
     },
     {
-        date: "février 2024 - Décembre 2024",
+        date: "février 2024 - Janvier 2025",
         title: "Base grue",
         img: `${imageBaseGrue}`,
         link: "/projets/basegrue"
     },
     {
-        date: "23/08/2024",
+        date: "Juillet 2024 - Aout 2024",
         title: "POC sur une nouvelle technologie pour afficher des données",
         img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.uco.es%2Fatdfiware%2Fimages%2Fdoc%2Fcomunica%2Ftb%2F00-thingboard.png&f=1&nofb=1&ipt=33afd783f731236e25261f952ceab5a6c056b7d0b339d0174cca400b7a55f171&ipo=images",
         link: "/"

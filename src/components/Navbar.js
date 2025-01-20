@@ -5,7 +5,7 @@ import logo from "../assets/images/logo_ko.webp"
 const Navbar = () => {
   return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <Link className="navbar-brand" to="/portfolio_KenjiOgier"><img id='logo' src={logo} alt="logo" /></Link>
+        <Link className="navbar-brand" to="/"><img id='logo' src={logo} alt="logo" /></Link>
         <div className="navbar-collapse collapse" id='navbarNav'>
           <ul className="navbar-nav w-100 d-flex justify-content-around">
             <li className="nav-item">
