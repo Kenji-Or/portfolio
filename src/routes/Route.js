@@ -16,7 +16,7 @@ const AppRoutes = () => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
   return (
-    <Routes>
+    <Routes basename={process.env.PUBLIC_URL}>
       <Route path="/" element={<Home />} />
       <Route path="/competences" element={<Competences />} />
       <Route path="/projets" element={<Projets />} />
