@@ -29,7 +29,7 @@ const Contact = () => {
             <div className="container">
                 {/* Section Titre */}
                 <div className="text-center mb-5">
-                    <h1 className="display-4 fw-bold mb-3">
+                    <h1 className="display-4 fw-bold mb-3 titre">
                         <span className="text-primary">Contact</span>
                     </h1>
                     <p className="lead">N'hésitez pas à me contacter via le formulaire ci-dessous.</p>

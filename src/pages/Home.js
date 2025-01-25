@@ -36,7 +36,7 @@ const Home = () => {
       <div className="App">
         <header className="hero-section text-white text-center d-flex align-items-center">
           <div className="container">
-            <h1 className="display-1 mb-4">Bienvenue sur mon Portfolio</h1>
+            <h1 className="display-1 mb-4 titre">Bienvenue sur mon Portfolio</h1>
             <p className="lead mb-5">Développeur passionné | Créateur d'innovations</p>
             <button className="btn btn-outline-light btn-lg" onClick={cvPDF}>
               Télécharger mon CV

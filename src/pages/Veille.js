@@ -6,7 +6,7 @@ const Veille = () => {
         <div className="container py-5">
             <article className="blog-post">
                 <header className="text-center mb-5">
-                    <h1 className="display-4 text-primary">Veille Technologique : IA et Machine Learning</h1>
+                    <h1 className="display-4 text-primary titre">Veille Technologique : IA et Machine Learning</h1>
                     <p className="lead text-secondary">
                         Un guide pour les développeurs qui souhaitent tirer parti des technologies d'IA et de ML.
                     </p>

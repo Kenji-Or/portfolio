@@ -51,7 +51,7 @@ const Projet = () => {
             <div className="container">
                 {/* Title Section */}
                 <div className="text-center mb-5">
-                    <h1 className="display-4 fw-bold mb-3">
+                    <h1 className="display-4 fw-bold mb-3 titre">
                         <span className="text-primary">Mes Projets</span>
                     </h1>
                 </div>

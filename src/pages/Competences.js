@@ -13,8 +13,8 @@ const Competences = () => {
             <div className="container">
                 {/* Title Section */}
                 <div className="text-center mb-5">
-                    <h1 className="display-4 fw-bold mb-3">
-                        <span className="text-primary">Mes Compétences</span>
+                    <h1 className="display-4 fw-bold mb-3 titre">
+                        <span className="text-primary">Mes Competences</span>
                     </h1>
                     <div className="bg-gradient-to-r from-blue-600 to-cyan-500 p-4 rounded-lg shadow-lg mb-5">
                         <div className="flex justify-between items-center">
