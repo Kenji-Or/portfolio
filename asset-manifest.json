@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio_KenjiOgier/static/css/main.ae9950aa.css",
-    "main.js": "/portfolio_KenjiOgier/static/js/main.e7733c41.js",
+    "main.css": "/portfolio_KenjiOgier/static/css/main.fe3de0cf.css",
+    "main.js": "/portfolio_KenjiOgier/static/js/main.12c6784c.js",
     "static/media/IA-ML.webp": "/portfolio_KenjiOgier/static/media/IA-ML.264b57a85b36059eda13.webp",
     "static/media/basegruefichegrue.png": "/portfolio_KenjiOgier/static/media/basegruefichegrue.1f727b90f2d27ac538f0.png",
     "static/media/drapeaubasegrue.png": "/portfolio_KenjiOgier/static/media/drapeaubasegrue.82c08001089c53af8f14.png",
     "static/media/ticketGenerator.png": "/portfolio_KenjiOgier/static/media/ticketGenerator.853265db849c2fed9124.png",
     "static/media/accueilTicketGenerator.png": "/portfolio_KenjiOgier/static/media/accueilTicketGenerator.40c83d596587ef5e22f1.png",
     "static/media/accueilBaseGrue.png": "/portfolio_KenjiOgier/static/media/accueilBaseGrue.19c3a81139c8016e0fca.png",
-    "static/media/logo_ko.webp": "/portfolio_KenjiOgier/static/media/logo_ko.24e236533b8b58f630d8.webp",
+    "static/media/Blanka-Regular.otf": "/portfolio_KenjiOgier/static/media/Blanka-Regular.16f6265b20de0db4a921.otf",
+    "static/media/logo_ko.webp": "/portfolio_KenjiOgier/static/media/logo_ko.e2f01249c1a7e338bad2.webp",
     "index.html": "/portfolio_KenjiOgier/index.html",
     "static/media/iconDesign.svg": "/portfolio_KenjiOgier/static/media/iconDesign.c9528d244dc7da80fd3213f56ea8d0b0.svg",
     "static/media/iconDatabase.svg": "/portfolio_KenjiOgier/static/media/iconDatabase.64b250a03560136bd0b5e8739060a150.svg",
     "static/media/iconGlobe.svg": "/portfolio_KenjiOgier/static/media/iconGlobe.2ffc4683bd500d6ebd69517e99d8b95c.svg",
     "static/media/iconFront-end.svg": "/portfolio_KenjiOgier/static/media/iconFront-end.f9e782702352e25436d69bce2c3b7aa7.svg",
-    "main.ae9950aa.css.map": "/portfolio_KenjiOgier/static/css/main.ae9950aa.css.map",
-    "main.e7733c41.js.map": "/portfolio_KenjiOgier/static/js/main.e7733c41.js.map"
+    "main.fe3de0cf.css.map": "/portfolio_KenjiOgier/static/css/main.fe3de0cf.css.map",
+    "main.12c6784c.js.map": "/portfolio_KenjiOgier/static/js/main.12c6784c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae9950aa.css",
-    "static/js/main.e7733c41.js"
+    "static/css/main.fe3de0cf.css",
+    "static/js/main.12c6784c.js"
   ]
 }
