@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio_KenjiOgier/static/css/main.fe3de0cf.css",
-    "main.js": "/portfolio_KenjiOgier/static/js/main.12c6784c.js",
+    "main.js": "/portfolio_KenjiOgier/static/js/main.b97bca8e.js",
     "static/media/IA-ML.webp": "/portfolio_KenjiOgier/static/media/IA-ML.264b57a85b36059eda13.webp",
-    "static/media/basegruefichegrue.png": "/portfolio_KenjiOgier/static/media/basegruefichegrue.1f727b90f2d27ac538f0.png",
-    "static/media/drapeaubasegrue.png": "/portfolio_KenjiOgier/static/media/drapeaubasegrue.82c08001089c53af8f14.png",
-    "static/media/ticketGenerator.png": "/portfolio_KenjiOgier/static/media/ticketGenerator.853265db849c2fed9124.png",
-    "static/media/accueilTicketGenerator.png": "/portfolio_KenjiOgier/static/media/accueilTicketGenerator.40c83d596587ef5e22f1.png",
-    "static/media/accueilBaseGrue.png": "/portfolio_KenjiOgier/static/media/accueilBaseGrue.19c3a81139c8016e0fca.png",
+    "static/media/basegruefichegrue.webp": "/portfolio_KenjiOgier/static/media/basegruefichegrue.5a3c0d5328d582c286b7.webp",
+    "static/media/ticketGenerator.webp": "/portfolio_KenjiOgier/static/media/ticketGenerator.558aaba819fd29e4b400.webp",
+    "static/media/drapeaubasegrue.webp": "/portfolio_KenjiOgier/static/media/drapeaubasegrue.c32ecfa06229b8b887a7.webp",
+    "static/media/accueilTicketGenerator.webp": "/portfolio_KenjiOgier/static/media/accueilTicketGenerator.215d8f1eeabc889e494d.webp",
+    "static/media/accueilBaseGrue.webp": "/portfolio_KenjiOgier/static/media/accueilBaseGrue.e386551684e888d45253.webp",
     "static/media/Blanka-Regular.otf": "/portfolio_KenjiOgier/static/media/Blanka-Regular.16f6265b20de0db4a921.otf",
     "static/media/logo_ko.webp": "/portfolio_KenjiOgier/static/media/logo_ko.e2f01249c1a7e338bad2.webp",
     "index.html": "/portfolio_KenjiOgier/index.html",
@@ -16,10 +16,10 @@
     "static/media/iconGlobe.svg": "/portfolio_KenjiOgier/static/media/iconGlobe.2ffc4683bd500d6ebd69517e99d8b95c.svg",
     "static/media/iconFront-end.svg": "/portfolio_KenjiOgier/static/media/iconFront-end.f9e782702352e25436d69bce2c3b7aa7.svg",
     "main.fe3de0cf.css.map": "/portfolio_KenjiOgier/static/css/main.fe3de0cf.css.map",
-    "main.12c6784c.js.map": "/portfolio_KenjiOgier/static/js/main.12c6784c.js.map"
+    "main.b97bca8e.js.map": "/portfolio_KenjiOgier/static/js/main.b97bca8e.js.map"
   },
   "entrypoints": [
     "static/css/main.fe3de0cf.css",
-    "static/js/main.12c6784c.js"
+    "static/js/main.b97bca8e.js"
   ]
 }
