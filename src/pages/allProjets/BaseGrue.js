@@ -1,6 +1,6 @@
 import React from "react";
-import image1 from "../../assets/images/basegruefichegrue.png";
-import drapeauimage from "../../assets/images/drapeaubasegrue.png";
+import image1 from "../../assets/images/basegruefichegrue.webp";
+import drapeauimage from "../../assets/images/drapeaubasegrue.webp";
 
 const BaseGrue = () => {
     return (
@@ -57,12 +57,14 @@ const BaseGrue = () => {
                                         src={image1}
                                         alt="Exemple de ticket finalisé"
                                         className="img-fluid rounded"
-                                        style={{maxWidth: "1000px"}}
+                                        style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
                                     />
                                 </div>
                             </li>
                             <li className="list-group-item">
-                                <strong></strong>:
+                                <strong>Refonte gestion options :</strong>
+                                <p>Refonte de la gestion des options pour les gérer (créer, consulter, modifier,
+                                    supprimer) comme on gère les nomenclatures commerciale.</p>
                             </li>
                             <li className="list-group-item">
                                 <strong>Drapeau : </strong>
@@ -77,7 +79,7 @@ const BaseGrue = () => {
                                         src={drapeauimage}
                                         alt="Exemple de ticket finalisé"
                                         className="img-fluid rounded"
-                                        style={{maxWidth: "1000px"}}
+                                        style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
                                     />
                                 </div>
                             </li>

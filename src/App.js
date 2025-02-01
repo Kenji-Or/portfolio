@@ -1,14 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import AppRoutes from './routes/Route';
 import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
 function App() {
   return (
       <>
-      <Navbar />
-        <AppRoutes />
-        <Footer />
+          <div className="d-flex flex-column min-vh-100">
+            <Navbar />
+              <div className="flex-grow-1">
+                  <AppRoutes />
+              </div>
+              <Footer />
+          </div>
       </>
   );
 }

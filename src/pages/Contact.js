@@ -1,44 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Contact = () => {
-    // State pour gérer les valeurs du formulaire
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: ''
-    });
-
-    // Fonction pour mettre à jour les valeurs des champs
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value
-        });
-    };
-
-    // Fonction pour soumettre le formulaire
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log("Form data submitted:", formData);
-        setFormData({ name: '', email: '', message: '' });
-    };
-
     return (
-        <div className="container-fluid py-5 bg-light">
-            <div className="container">
+        <div className="container-fluid py-5 bg-light d-flex justify-content-center align-items-center flex-column" style={{ minHeight: 'calc(100vh - 190px)' }}>
+            <div className="container text-center">
                 {/* Section Titre */}
-                <div className="text-center mb-5">
+                <div className="mb-5">
                     <h1 className="display-4 fw-bold mb-3 titre">
                         <span className="text-primary">Contact</span>
                     </h1>
-                    <p className="lead">N'hésitez pas à me contacter via le formulaire ci-dessous.</p>
+                    <p className="lead">N'hésitez pas à me contacter par mail.</p>
                 </div>
 
                 {/* Informations de contact */}
-                <div className="text-center mb-4">
+                <div className="mb-4">
                     <p><strong>Adresse e-mail :</strong> <a href="mailto:kenjiogier@gmail.com">kenjiogier@gmail.com</a></p>
-                    <p><strong>Téléphone :</strong> <a href="tel:+123456789">+123456789</a></p>
+                    <p className="lead">N'hésitez pas à me contacter et à me suivre sur mes réseaux professionnels.</p>
                     <div className="d-flex justify-content-center gap-3">
                         <a href="https://github.com/Kenji-Or" target="_blank" rel="noopener noreferrer" aria-label="Lien vers le profil GitHub">
                             <img className="rounded img-fluid"
@@ -54,47 +31,6 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
-
-                {/* Formulaire de contact */}
-                <form onSubmit={handleSubmit} className="mx-auto" style={{maxWidth: '600px'}}>
-                    <div className="mb-3">
-                        <label htmlFor="name" className="form-label">Nom</label>
-                        <input
-                            type="text"
-                            className="form-control"
-                            id="name"
-                            name="name"
-                            value={formData.name}
-                            onChange={handleChange}
-                            required
-                        />
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="email" className="form-label">Email</label>
-                        <input
-                            type="email"
-                            className="form-control"
-                            id="email"
-                            name="email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            required
-                        />
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="message" className="form-label">Message</label>
-                        <textarea
-                            className="form-control"
-                            id="message"
-                            name="message"
-                            rows="5"
-                            value={formData.message}
-                            onChange={handleChange}
-                            required
-                        />
-                    </div>
-                    <button type="submit" className="btn btn-primary">Envoyer</button>
-                </form>
             </div>
         </div>
     );

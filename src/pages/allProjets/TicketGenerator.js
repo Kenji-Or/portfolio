@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../assets/images/ticketGenerator.png";
+import image1 from "../../assets/images/ticketGenerator.webp";
 
 const TicketGenerator = () => {
     return (
@@ -37,16 +37,15 @@ const TicketGenerator = () => {
                                 L'utilisateur peut choisir quels éléments afficher ou masquer, en fonction de ses besoins.
                             </p>
                         </div>
-                    </div>
-
-                    {/* Image du ticket finalisé */}
-                    <div className="text-center mt-5">
-                        <img
-                            src={image1}
-                            alt="Exemple de ticket finalisé"
-                            className="img-fluid rounded"
-                            style={{ maxWidth: "1000px" }}
-                        />
+                        {/* Image du ticket finalisé */}
+                        <div className="text-center mt-5">
+                            <img
+                                src={image1}
+                                alt="Exemple de ticket finalisé"
+                                className="img-fluid rounded"
+                                style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
+                            />
+                        </div>
                     </div>
 
                     {/* Section description */}
