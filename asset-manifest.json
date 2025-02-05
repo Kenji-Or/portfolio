@@ -1,25 +1,33 @@
 {
   "files": {
     "main.css": "/portfolio_KenjiOgier/static/css/main.fe3de0cf.css",
-    "main.js": "/portfolio_KenjiOgier/static/js/main.b97bca8e.js",
+    "main.js": "/portfolio_KenjiOgier/static/js/main.e20083be.js",
+    "static/media/intranetAccueil.webp": "/portfolio_KenjiOgier/static/media/intranetAccueil.4fa12e27189a095b586f.webp",
     "static/media/IA-ML.webp": "/portfolio_KenjiOgier/static/media/IA-ML.264b57a85b36059eda13.webp",
+    "static/media/schemabdd.webp": "/portfolio_KenjiOgier/static/media/schemabdd.4aa38cbc178afd607959.webp",
     "static/media/basegruefichegrue.webp": "/portfolio_KenjiOgier/static/media/basegruefichegrue.5a3c0d5328d582c286b7.webp",
     "static/media/ticketGenerator.webp": "/portfolio_KenjiOgier/static/media/ticketGenerator.558aaba819fd29e4b400.webp",
     "static/media/drapeaubasegrue.webp": "/portfolio_KenjiOgier/static/media/drapeaubasegrue.c32ecfa06229b8b887a7.webp",
+    "static/media/rôlesgsb.webp": "/portfolio_KenjiOgier/static/media/rôlesgsb.bca9e8d5f50f75094848.webp",
     "static/media/accueilTicketGenerator.webp": "/portfolio_KenjiOgier/static/media/accueilTicketGenerator.215d8f1eeabc889e494d.webp",
+    "static/media/intranetForum.webp": "/portfolio_KenjiOgier/static/media/intranetForum.dfbcd7189f117ac22a78.webp",
     "static/media/accueilBaseGrue.webp": "/portfolio_KenjiOgier/static/media/accueilBaseGrue.e386551684e888d45253.webp",
     "static/media/Blanka-Regular.otf": "/portfolio_KenjiOgier/static/media/Blanka-Regular.16f6265b20de0db4a921.otf",
     "static/media/logo_ko.webp": "/portfolio_KenjiOgier/static/media/logo_ko.e2f01249c1a7e338bad2.webp",
+    "static/media/Kotlin_Icon.svg": "/portfolio_KenjiOgier/static/media/Kotlin_Icon.22a89dcc49b70fcf527477773b92a360.svg",
+    "static/media/icon-trello.svg": "/portfolio_KenjiOgier/static/media/icon-trello.beb12e75c409eb85ea830f0473e724e4.svg",
+    "static/media/icons-github.svg": "/portfolio_KenjiOgier/static/media/icons-github.407c621f00b9925785041f7dff76a0f1.svg",
+    "static/media/icons-angularjs.svg": "/portfolio_KenjiOgier/static/media/icons-angularjs.fc9bca7312f9ce448304b53576c1e5f4.svg",
     "index.html": "/portfolio_KenjiOgier/index.html",
     "static/media/iconDesign.svg": "/portfolio_KenjiOgier/static/media/iconDesign.c9528d244dc7da80fd3213f56ea8d0b0.svg",
     "static/media/iconDatabase.svg": "/portfolio_KenjiOgier/static/media/iconDatabase.64b250a03560136bd0b5e8739060a150.svg",
     "static/media/iconGlobe.svg": "/portfolio_KenjiOgier/static/media/iconGlobe.2ffc4683bd500d6ebd69517e99d8b95c.svg",
     "static/media/iconFront-end.svg": "/portfolio_KenjiOgier/static/media/iconFront-end.f9e782702352e25436d69bce2c3b7aa7.svg",
     "main.fe3de0cf.css.map": "/portfolio_KenjiOgier/static/css/main.fe3de0cf.css.map",
-    "main.b97bca8e.js.map": "/portfolio_KenjiOgier/static/js/main.b97bca8e.js.map"
+    "main.e20083be.js.map": "/portfolio_KenjiOgier/static/js/main.e20083be.js.map"
   },
   "entrypoints": [
     "static/css/main.fe3de0cf.css",
-    "static/js/main.b97bca8e.js"
+    "static/js/main.e20083be.js"
   ]
 }
