@@ -2,12 +2,13 @@ import React from "react";
 import {Link} from "react-router-dom";
 import imageTicketGenerator from "../assets/images/accueilTicketGenerator.webp";
 import imageBaseGrue from "../assets/images/accueilBaseGrue.webp";
+import accueilIntranet from "../assets/images/intranetAccueil.webp";
 
 const projetsFormation = [
     {
         date: "Octobre 2024 - Décembre 2024",
         title: "Développement d'un site intranet",
-        img: "/",
+        img: `${accueilIntranet}`,
         link: "/projets/intranet"
     },
     {

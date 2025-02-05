@@ -1,5 +1,19 @@
 import React from "react";
 
+const skills = [
+    { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+    { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
+    { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+    { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+    { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+    { name: "Axios", icon: "https://axios-http.com/assets/logo.svg" },
+    { name: "Express", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+    { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+    { name: "GitLab", icon: "https://static.cdnlogo.com/logos/g/8/gitlab.svg" },
+    { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" }
+];
+
 const CodeGenerator = () => {
     return (
         <div className="container-fluid py-5 bg-ligh">
@@ -41,6 +55,28 @@ const CodeGenerator = () => {
                             className="img-fluid rounded"
                             style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
                         />
+                    </div>
+                </div>
+                <div className="row justify-content-center mt-4">
+                    <div className="col-md-6">
+                        <div className="card h-100 shadow-sm">
+                            <div className="card-body">
+                                <h5 className="card-title">Compétences utilisées :</h5>
+                                <div className="d-flex flex-wrap">
+                                    {skills.map((skill, index) => (
+                                        <div key={index} className="d-flex align-items-center me-3 mb-2">
+                                            <img
+                                                src={skill.icon}
+                                                alt={skill.name}
+                                                className="img-fluid"
+                                                style={{ width: '20px', height: '20px' }}
+                                            />
+                                            <span className="ms-2 small">{skill.name}</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
