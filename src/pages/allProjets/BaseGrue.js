@@ -18,91 +18,79 @@ const skills = [
 
 const BaseGrue = () => {
     return (
-        <div className="container-fluid py-5 bg-ligh">
+        <div className="container-fluid py-5 bg-light">
             <div className="container">
                 <div className="text-center mb-5">
                     <h1 className="display-4 fw-bold mb-3 titre">
-                        <span className="text-primary">Base grue</span>
+                        <span className="text-primary">Base Grue</span>
                     </h1>
                 </div>
-                {/* Section description */}
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
                         <h2 className="text-secondary text-center mb-4">Description</h2>
-                        <p>Nos systèmes anticollision MC602 et MC603 nécessitent différents capteurs et matériels pour
-                            être installés sur les différentes marques et modèles de grues.
-                            C'est pourquoi le site Base Grue a été créé pour permettre de créer, modifier et référencer
-                            les fiches grue dont nous avons besoin, avec la possibilité de générer un PDF de la fiche
-                            pour la partie compatibilité. Cela simplifie les commandes en permettant d'accéder
-                            directement aux détails sans avoir à effectuer de recherches supplémentaires.
-                        </p>
                         <p>
-                            Pour ce projet, j’ai apporté de nombreuses modifications :
+                            Nos systèmes anticollision MC602 et MC603 nécessitent divers capteurs et équipements pour être installés sur différentes marques et modèles de grues.
+                            C'est pourquoi le site Base Grue a été créé : il permet de créer, modifier et référencer les fiches grue nécessaires, tout en offrant la possibilité de générer un PDF
+                            détaillant la compatibilité. Cela simplifie les commandes en facilitant l'accès aux informations essentielles sans recherches supplémentaires.
                         </p>
+                        <p>Dans le cadre de ce projet, j’ai apporté plusieurs améliorations :</p>
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">
-                                <strong>Recherche par numéro de série</strong> : Ajout d'un champ de saisie et de la
-                                partie backend pour permettre la recherche d'une fiche grue par numéro de série.
+                            <li className="list-group-item bg-transparent">
+                                <strong>Recherche par numéro de série :</strong> Ajout d'un champ de saisie et d'une intégration backend permettant la recherche d'une fiche grue par son numéro de série.
                             </li>
-                            <li className="list-group-item">
-                                <strong>Demande de modification</strong>:
+                            <li className="list-group-item bg-transparent">
+                                <strong>Gestion des demandes de modification :</strong>
                                 <p>
-                                    Modification de la page où l'on a les détails de la fiche grue, en modifiant les
-                                    droits de modification.
-                                    Si c'est un <strong>admin</strong>, il peut modifier la fiche grue.
-                                    Si c'est un <strong>utilisateur</strong>, lorsqu'il va cliquer sur le bouton pour
-                                    modifier la fiche grue, une popup apparaîtra pour lui demander les modifications
-                                    qu'il souhaite apporter.
+                                    Sur la page des détails d'une fiche grue, les droits de modification ont été ajustés :
+                                    <ul>
+                                        <li>Un <strong>administrateur</strong> peut modifier directement la fiche.</li>
+                                        <li>Un <strong>utilisateur</strong> voit une popup s'afficher lorsqu'il clique sur le bouton de modification, où il peut spécifier les changements souhaités.</li>
+                                    </ul>
                                 </p>
                                 <p>
-                                    Ensuite, un <strong>e-mail</strong> sera envoyé à l'admin pour l'informer de la
-                                    demande de modification, avec les informations de la fiche grue concernée et un lien
-                                    vers la fiche grue.
-                                </p>
-                                <p>
-                                    Il y a également une page pour voir toutes les demandes de modification (les
-                                    demandes non traitées, les refusées et les acceptées).
-                                    Lorsque l'admin refuse ou accepte la modification, il peut laisser
-                                    un <strong>commentaire</strong> à l'utilisateur, et ensuite il doit apporter les
-                                    modifications demandées.
+                                    Une demande de modification génère un <strong>e-mail</strong> envoyé à l'administrateur avec un lien direct vers la fiche concernée.
+                                    Une interface dédiée permet de suivre les demandes (en attente, refusées, acceptées). L'admin peut y ajouter un commentaire avant de valider ou refuser une demande.
                                 </p>
                                 <div className="text-center mt-5">
                                     <img
                                         src={image1}
-                                        alt="Exemple de ticket finalisé"
+                                        alt="Exemple de gestion des demandes"
                                         className="img-fluid rounded"
                                         style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
                                     />
                                 </div>
                             </li>
-                            <li className="list-group-item">
-                                <strong>Refonte gestion options :</strong>
-                                <p>Refonte de la gestion des options pour les gérer (créer, consulter, modifier,
-                                    supprimer) comme on gère les nomenclatures commerciale.</p>
+                            <li className="list-group-item bg-transparent">
+                                <strong>Refonte de la gestion des options :</strong>
+                                <p>Amélioration du système de gestion des options en les rendant administrables de manière plus intuitive, similaire à la gestion des nomenclatures commerciales.</p>
                             </li>
-                            <li className="list-group-item">
-                                <strong>Drapeau : </strong>
+                            <li className="list-group-item bg-transparent">
+                                <strong>Ajout de drapeaux d’indication :</strong>
                                 <p>
-                                    Lorsqu'on cherche une fiche grue, le résultat affiche une liste des fiches grue
-                                    correspondantes. Ma modification consiste à ajouter un <strong>drapeau </strong>
-                                    dans cette liste pour chaque fiche grue : un drapeau rouge apparaît lorsqu'une
-                                    fiche grue n'est pas valide, et un drapeau vert lorsqu'une fiche grue est valide.
+                                    Lors de la recherche d'une fiche grue, la liste des résultats affiche désormais un <strong>drapeau</strong> pour indiquer son statut :
+                                    <ul>
+                                        <li>🔴 <strong>Rouge</strong> : fiche grue invalide.</li>
+                                        <li>🟢 <strong>Vert</strong> : fiche grue valide.</li>
+                                    </ul>
                                 </p>
                                 <div className="text-center mt-5">
                                     <img
                                         src={drapeauimage}
-                                        alt="Exemple de ticket finalisé"
+                                        alt="Exemple d'indicateur de statut"
                                         className="img-fluid rounded"
                                         style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
                                     />
                                 </div>
                             </li>
-                            <li className="list-group-item">
-                                <strong>Corrections mineures</strong>:
+                            <li className="list-group-item bg-transparent">
+                                <strong>Corrections et optimisations :</strong>
                                 <p>
-                                    J'ai aussi apporté quelques petites corrections à des bugs mineurs, tels que la
-                                    possibilité de voir son profil en tant qu'utilisateur, le changement de l'adresse
-                                    email Google en adresse professionnelle, fusion de serial et serial number, etc.
+                                    Correction de divers bugs et améliorations mineures, notamment :
+                                    <ul>
+                                        <li>Affichage et gestion des profils utilisateur.</li>
+                                        <li>Mise à jour de l'adresse e-mail Google vers une adresse professionnelle.</li>
+                                        <li>Fusion des champs <em>serial</em> et <em>serial number</em> pour plus de cohérence.</li>
+                                    </ul>
                                 </p>
                             </li>
                         </ul>
@@ -132,7 +120,7 @@ const BaseGrue = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default BaseGrue;

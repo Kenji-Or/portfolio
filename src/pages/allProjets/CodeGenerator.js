@@ -1,4 +1,7 @@
 import React from "react";
+import acg1 from "../../assets/images/acg3.webp";
+import acg2 from "../../assets/images/acg5.webp";
+import acg3 from "../../assets/images/acg1.webp";
 
 const skills = [
     { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
@@ -16,7 +19,7 @@ const skills = [
 
 const CodeGenerator = () => {
     return (
-        <div className="container-fluid py-5 bg-ligh">
+        <div className="container-fluid py-5 bg-light">
             <div className="container">
                 <div className="text-center mb-5">
                     <h1 className="display-4 fw-bold mb-3 titre">
@@ -27,34 +30,58 @@ const CodeGenerator = () => {
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
                         <h2 className="text-secondary text-center mb-4">Description</h2>
-                        <p>Nos systèmes d'anticollision ont besoin d'un code d'accès pour déverrouiller l'accès au système et donc aussi au contrôle de la grue.
-                            Cela est nécessaire car les grues sont souvent louées à différentes personnes pendant une certaines durées, et donc, pour donner accès
-                            à la grue à ces personnes pendant une période donnée, nous allons sur ce site, créer un code avec la durer de validation.
-                            Notre projet sur ce site va être de créer un accès a distance au systeme en directe.</p>
                         <p>
-                            Pour ce projet, je suis partie du site existant et j'ai ajouter une rubrique
+                            Nos systèmes d'anticollision nécessitent un code d'accès pour être activés, garantissant ainsi un contrôle sécurisé des grues.
+                            Comme ces équipements sont souvent loués à différentes entreprises pour des périodes définies, un système d'authentification
+                            permet de générer un code temporaire et sécurisé, facilitant ainsi leur gestion.
                         </p>
-                        <p>Voici ce que j'ai réalisé par la suite :</p>
+                        <p>
+                            Dans le cadre de ce projet, je suis parti d'un site existant et j'ai ajouté plusieurs fonctionnalités clés :
+                        </p>
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">
-                                <strong>Page d'affichage : </strong> Création d'une tuile permettant d'accéder à la page de connexion au
-                                service d'accès à distance. Ajout des requêtes vers le service pour vérifier l'authentification. Une fois authentifié,
-                                un iframe s'affiche, permettant même de prendre le contrôle du système.
+                            <p>Première amélioration : filtrage des utilisateurs.</p>
+                            <li className="list-group-item bg-transparent">
+                                <strong>Filtrage des utilisateurs :</strong> Ajout d'une fonctionnalité permettant de trier les utilisateurs selon leur entité, leur rôle et leur état,
+                                grâce à des sélecteurs avancés.
+                                <div className="text-center mt-5">
+                                    <img
+                                        src={acg3}
+                                        alt="Filtrage des utilisateurs"
+                                        className="img-fluid rounded"
+                                        style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
+                                    />
+                                </div>
                             </li>
-                            <li className="list-group-item">
-                                <strong>Requête côté service d'authentification : </strong> Création des requêtes pour vérifier si l'authentification est correcte et si l'entité à laquelle l'utilisateur appartient souscrit à notre abonnement pour bénéficier de ce service, puis,
-                                si elle l'est, renvoi du lien de l'iframe.
+                            <p>Seconde amélioration : création d'un accès à distance au système.</p>
+                            <li className="list-group-item bg-transparent">
+                                <strong>Accès à distance :</strong> Mise en place d'une tuile de connexion au service d'accès à distance,
+                                incluant des requêtes de vérification d'authentification.
+                                Une fois l'utilisateur authentifié, un iframe sécurisé s'affiche,
+                                permettant un contrôle direct du système.
+                                <div className="text-center mt-5">
+                                    <img
+                                        src={acg1}
+                                        alt="Accès à distance au système"
+                                        className="img-fluid rounded"
+                                        style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
+                                    />
+                                </div>
+                            </li>
+                            <li className="list-group-item bg-transparent">
+                                <strong>Requête d'authentification :</strong> Création d'un système de vérification permettant de s'assurer
+                                que l'utilisateur appartient à une entité souscrite à notre service.
+                                Si l'authentification est validée, un lien vers l'iframe est généré,
+                                permettant ainsi l'affichage de l'interface du système.
+                                <div className="text-center mt-5">
+                                    <img
+                                        src={acg2}
+                                        alt="Vérification d'authentification"
+                                        className="img-fluid rounded"
+                                        style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
+                                    />
+                                </div>
                             </li>
                         </ul>
-                    </div>
-                    {/* Image du ticket finalisé */}
-                    <div className="text-center mt-5">
-                        <img
-                            src=""
-                            alt="Exemple accès a distance"
-                            className="img-fluid rounded"
-                            style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
-                        />
                     </div>
                 </div>
                 <div className="row justify-content-center mt-4">
@@ -81,7 +108,7 @@ const CodeGenerator = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default CodeGenerator;

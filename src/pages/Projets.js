@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import imageTicketGenerator from "../assets/images/accueilTicketGenerator.webp";
 import imageBaseGrue from "../assets/images/accueilBaseGrue.webp";
 import accueilIntranet from "../assets/images/intranetAccueil.webp";
+import imageACG from "../assets/images/acg.webp";
 
 const projetsFormation = [
     {
@@ -28,7 +29,7 @@ const projetsProfessionnel = [
     },
     {
         date: "Juillet 2024 - Aout 2024",
-        title: "POC sur une nouvelle technologie",
+        title: "Thingsboard",
         img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.uco.es%2Fatdfiware%2Fimages%2Fdoc%2Fcomunica%2Ftb%2F00-thingboard.png&f=1&nofb=1&ipt=33afd783f731236e25261f952ceab5a6c056b7d0b339d0174cca400b7a55f171&ipo=images",
         link: "/projets/thingsboard"
     },
@@ -40,8 +41,8 @@ const projetsProfessionnel = [
     },
     {
         date: 'janvier 2025 - février 2025',
-        title: 'Accès a distance',
-        img: '',
+        title: 'Access Code Generator',
+        img: `${imageACG}`,
         link: '/projets/acg'
     }
 ]
