@@ -26,11 +26,11 @@ Pour installer ce projet localement, suivez ces étapes :
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/Kenji-Or/portfolio_KenjiOgier.git
+   git clone https://github.com/Kenji-Or/portfolio.git
    ```
 2. Accédez au répertoire du projet :
    ```bash
-   cd portfolio_KenjiOgier
+   cd portfolio
    ```
 3. Installez les dépendances :
    ```bash
@@ -45,6 +45,6 @@ npm start
 
 ## Contact
 
-Pour toute question ou collaboration, contactez moi via mon mail: kenjiogier@gmail.com.
+Pour toute question ou collaboration, contactez moi depuis github.
 
 Merci d'avoir visité mon portfolio !

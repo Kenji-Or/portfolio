@@ -104,6 +104,9 @@ const Intranet = () => {
                         </div>
                     </div>
                 </div>
+                <div className="mt-3">
+                    <strong>Lien github : </strong> <a href="https://github.com/Kenji-Or/GSB-web">GSB-Web github</a>
+                </div>
             </div>
         </div>
     );
