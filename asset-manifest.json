@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.09867ea0.css",
-    "main.js": "/portfolio/static/js/main.eaa789b0.js",
+    "main.js": "/portfolio/static/js/main.360b42dd.js",
     "static/media/intranetAccueil.webp": "/portfolio/static/media/intranetAccueil.4fa12e27189a095b586f.webp",
     "static/media/IA-ML.webp": "/portfolio/static/media/IA-ML.264b57a85b36059eda13.webp",
     "static/media/thingsboard1.webp": "/portfolio/static/media/thingsboard1.6ea12cb1abed5a8934ba.webp",
@@ -11,13 +11,16 @@
     "static/media/basegruefichegrue.webp": "/portfolio/static/media/basegruefichegrue.5a3c0d5328d582c286b7.webp",
     "static/media/acg1.webp": "/portfolio/static/media/acg1.5e99f8d8b8c6102bc931.webp",
     "static/media/ticketGenerator.webp": "/portfolio/static/media/ticketGenerator.558aaba819fd29e4b400.webp",
+    "static/media/gestionStockAccueil.webp": "/portfolio/static/media/gestionStockAccueil.64ec896746e98ac00ec7.webp",
     "static/media/drapeaubasegrue.webp": "/portfolio/static/media/drapeaubasegrue.c32ecfa06229b8b887a7.webp",
     "static/media/rôlesgsb.webp": "/portfolio/static/media/rôlesgsb.bca9e8d5f50f75094848.webp",
     "static/media/acg3.webp": "/portfolio/static/media/acg3.73119a3f2eba287e630d.webp",
     "static/media/accueilTicketGenerator.webp": "/portfolio/static/media/accueilTicketGenerator.215d8f1eeabc889e494d.webp",
+    "static/media/gestionMedicamentMobile.webp": "/portfolio/static/media/gestionMedicamentMobile.23f81af90a4146cba817.webp",
     "static/media/intranetForum.webp": "/portfolio/static/media/intranetForum.dfbcd7189f117ac22a78.webp",
     "static/media/accueilBaseGrue.webp": "/portfolio/static/media/accueilBaseGrue.e386551684e888d45253.webp",
     "static/media/Blanka-Regular.otf": "/portfolio/static/media/Blanka-Regular.16f6265b20de0db4a921.otf",
+    "static/media/gestionUtilisateurGestionStock.webp": "/portfolio/static/media/gestionUtilisateurGestionStock.eb1a2a6a3ff28eea9f5a.webp",
     "static/media/logo_ko.webp": "/portfolio/static/media/logo_ko.e2f01249c1a7e338bad2.webp",
     "static/media/Kotlin_Icon.svg": "/portfolio/static/media/Kotlin_Icon.22a89dcc49b70fcf527477773b92a360.svg",
     "static/media/icon-trello.svg": "/portfolio/static/media/icon-trello.beb12e75c409eb85ea830f0473e724e4.svg",
@@ -29,10 +32,10 @@
     "static/media/iconGlobe.svg": "/portfolio/static/media/iconGlobe.2ffc4683bd500d6ebd69517e99d8b95c.svg",
     "static/media/iconFront-end.svg": "/portfolio/static/media/iconFront-end.f9e782702352e25436d69bce2c3b7aa7.svg",
     "main.09867ea0.css.map": "/portfolio/static/css/main.09867ea0.css.map",
-    "main.eaa789b0.js.map": "/portfolio/static/js/main.eaa789b0.js.map"
+    "main.360b42dd.js.map": "/portfolio/static/js/main.360b42dd.js.map"
   },
   "entrypoints": [
     "static/css/main.09867ea0.css",
-    "static/js/main.eaa789b0.js"
+    "static/js/main.360b42dd.js"
   ]
 }
