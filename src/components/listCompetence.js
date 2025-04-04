@@ -68,6 +68,10 @@ const skillCategories = [
             {
                 name: 'PHP',
                 icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg'
+            },
+            {
+                name: 'Java spring boot',
+                icon: 'https://www.svgrepo.com/show/376350/spring.svg'
             }
         ]
     },
@@ -94,6 +98,14 @@ const skillCategories = [
             {
                 name: "Trello",
                 icon: `${iconTrello}`
+            },
+            {
+                name: 'Postman',
+                icon: 'https://www.svgrepo.com/show/354202/postman-icon.svg'
+            },
+            {
+                name: 'Android studio',
+                icon: 'https://imgs.search.brave.com/ihtNQIMzb-63o0902L9VO9Lq-keJX3Viw3mpnNZ66Y0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi81LzUxL0Fu/ZHJvaWRfU3R1ZGlv/X0xvZ29fMjAyNC5z/dmcvMjIwcHgtQW5k/cm9pZF9TdHVkaW9f/TG9nb18yMDI0LnN2/Zy5wbmc'
             }
         ]
     }

@@ -10,6 +10,7 @@ import TicketGenerator from '../pages/allProjets/TicketGenerator';
 import BaseGrue from "../pages/allProjets/BaseGrue";
 import Thingsboard from "../pages/allProjets/Thingsboard";
 import CodeGenerator from "../pages/allProjets/CodeGenerator";
+import GestionStock from "../pages/allProjets/GestionDeStockGSB";
 
 const AppRoutes = () => {
     const location = useLocation();
@@ -26,6 +27,7 @@ const AppRoutes = () => {
                 <Route path="/projets/basegrue" element={<BaseGrue />} />
                 <Route path="/projets/thingsboard" element={<Thingsboard />} />
                 <Route path="/projets/acg" element={<CodeGenerator />} />
+                <Route path="/projets/gestionstock" element={<GestionStock />} />
             <Route path="/veille" element={<Veille />} />
             <Route path="/contact" element={<Contact />} />
         </Routes>

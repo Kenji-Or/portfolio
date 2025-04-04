@@ -4,6 +4,7 @@ import imageTicketGenerator from "../assets/images/accueilTicketGenerator.webp";
 import imageBaseGrue from "../assets/images/accueilBaseGrue.webp";
 import accueilIntranet from "../assets/images/intranetAccueil.webp";
 import imageACG from "../assets/images/acg.webp";
+import imageGestionStock from "../assets/images/gestionStockAccueil.webp"
 
 const projetsFormation = [
     {
@@ -14,9 +15,9 @@ const projetsFormation = [
     },
     {
         date: "Janvier 2025 - Mars 2025",
-        title: "Développement d'une application mobile",
-        img: "/",
-        link: "/"
+        title: "Développement d'une application gestion de stock",
+        img: `${imageGestionStock}`,
+        link: "/projets/gestionstock"
     }
 ]
 
@@ -59,7 +60,7 @@ const Projet = () => {
                 </div>
                 <section className="py-5">
                     <div className="container">
-                        <h2 className="display-4 text-center mb-5">Réalisations en cour de formations : </h2>
+                        <h2 className="display-4 text-center mb-5">Réalisations en cours de formations : </h2>
                         <div className="row">
                             {projetsFormation.map((item, index) => (
                                 <div key={index} className="col-md-6 mb-4">
