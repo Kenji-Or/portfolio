@@ -41,7 +41,7 @@ const projetsProfessionnel = [
         link: "/projets/ticketgenerator"
     },
     {
-        date: 'janvier 2025 - février 2025',
+        date: 'janvier 2025 - mars 2025',
         title: 'Access Code Generator',
         img: `${imageACG}`,
         link: '/projets/acg'

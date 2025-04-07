@@ -66,8 +66,7 @@ const CodeGenerator = () => {
                                         style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
                                     />
                                 </div>
-                            </li>
-                            <li className="list-group-item bg-transparent">
+
                                 <strong>Requête d'authentification :</strong> Création d'un système de vérification permettant de s'assurer
                                 que l'utilisateur appartient à une entité souscrite à notre service.
                                 Si l'authentification est validée, un lien vers l'iframe est généré,
