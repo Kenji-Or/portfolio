@@ -84,6 +84,14 @@ const skillCategories = [
                 icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
             },
             {
+                name: 'GitHub',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+            },
+            {
+                name: 'GitLab',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg'
+            },
+            {
                 name: 'VS Code',
                 icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg'
             },
@@ -101,11 +109,11 @@ const skillCategories = [
             },
             {
                 name: 'Postman',
-                icon: 'https://www.svgrepo.com/show/354202/postman-icon.svg'
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg'
             },
             {
                 name: 'Android studio',
-                icon: 'https://imgs.search.brave.com/ihtNQIMzb-63o0902L9VO9Lq-keJX3Viw3mpnNZ66Y0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi81LzUxL0Fu/ZHJvaWRfU3R1ZGlv/X0xvZ29fMjAyNC5z/dmcvMjIwcHgtQW5k/cm9pZF9TdHVkaW9f/TG9nb18yMDI0LnN2/Zy5wbmc'
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg'
             }
         ]
     }

@@ -30,7 +30,7 @@ const Competences = () => {
                     </div>
                     <p className="lead text-muted mx-auto" style={{maxWidth: '700px'}}>
                         Un aperçu des technologies et outils que j'utilise quotidiennement
-                        pour créer des solutions web modernes et performantes.
+                        pour créer des solutions modernes et performantes.
                     </p>
                 </div>
 
@@ -78,7 +78,7 @@ const Competences = () => {
                 {/* Closing Message */}
                 <div className="text-center mt-5">
                     <p className="text-muted">
-                        Ces technologies me permettent de créer des applications web complètes et modernes.
+                        Ces technologies me permettent de créer des applications complètes et modernes.
                     </p>
                 </div>
             </div>
