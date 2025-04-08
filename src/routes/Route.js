@@ -11,6 +11,7 @@ import BaseGrue from "../pages/allProjets/BaseGrue";
 import Thingsboard from "../pages/allProjets/Thingsboard";
 import CodeGenerator from "../pages/allProjets/CodeGenerator";
 import GestionStock from "../pages/allProjets/GestionDeStockGSB";
+import SEO from "../pages/allProjets/SEO";
 
 const AppRoutes = () => {
     const location = useLocation();
@@ -28,6 +29,7 @@ const AppRoutes = () => {
                 <Route path="/projets/thingsboard" element={<Thingsboard />} />
                 <Route path="/projets/acg" element={<CodeGenerator />} />
                 <Route path="/projets/gestionstock" element={<GestionStock />} />
+                <Route path="/projets/seo" element={<SEO />} />
             <Route path="/veille" element={<Veille />} />
             <Route path="/contact" element={<Contact />} />
         </Routes>

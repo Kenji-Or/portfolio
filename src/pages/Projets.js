@@ -5,6 +5,7 @@ import imageBaseGrue from "../assets/images/accueilBaseGrue.webp";
 import accueilIntranet from "../assets/images/intranetAccueil.webp";
 import imageACG from "../assets/images/acg.webp";
 import imageGestionStock from "../assets/images/gestionStockAccueil.webp"
+import imgPresentationSeo from "../assets/images/imgpresentationseo.webp"
 
 const projetsFormation = [
     {
@@ -18,6 +19,12 @@ const projetsFormation = [
         title: "Développement d'une application gestion de stock",
         img: `${imageGestionStock}`,
         link: "/projets/gestionstock"
+    },
+    {
+        date: "Novembre 2024 - Juin 2025",
+        title: 'TP SEO',
+        img: `${imgPresentationSeo}`,
+        link: "/projets/seo"
     }
 ]
 
