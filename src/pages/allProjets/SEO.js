@@ -26,7 +26,7 @@ const SEO = () => {
                             <li className="list-group-item bg-transparent">
                                 <strong>PageSpeed Insights :</strong> Cet outil permet d’analyser les performances d’un site web
                                 et d’évaluer son niveau d’optimisation pour le référencement naturel. Il fournit une analyse
-                                détaillée pour les vues mobile et desktop.
+                                détaillée pour les vues mobile et ordinateur.
                                 <div className="text-center mt-4">
                                     <img
                                         src={image1}
