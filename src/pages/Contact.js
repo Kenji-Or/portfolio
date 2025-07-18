@@ -21,6 +21,7 @@ const Contact = () => {
                             <label htmlFor="message" className="form-label">Votre message :</label>
                             <textarea name="message" className="form-control" id="message" rows="4" required></textarea>
                         </div>
+                        <input type="text" name="_gotcha" style={{ display : 'none' }} />
                         <button type="submit" className="btn btn-primary w-100">Envoyer</button>
                     </form>
                 </div>

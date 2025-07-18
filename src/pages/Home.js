@@ -1,4 +1,5 @@
 import React from 'react';
+import logo_ascorel from '../assets/images/logo_ascorel.webp';
 
 const Home = () => {
   const cvPDF = () => {
@@ -28,7 +29,7 @@ const Home = () => {
       year: '2023-2025',
       title: 'Ascorel',
       description: "Alternance au sein du bureau d'étude chez Ascorel pendant mes deux années de BTS. C'est une entreprise spécialisée dans l'architecture embarquée, située à Pont-Évêque.",
-      image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fevent.businessfrance.fr%2Fbauma-munich-en%2Fwp-content%2Fuploads%2Fsites%2F1115%2FLogo-Ascorel.png&f=1&nofb=1&ipt=8e24c93eb5f4b8403b9dce5084cec68374eda04b9137a388841748124af779d8&ipo=images",
+      image: `${logo_ascorel}`,
     }
   ]
 
