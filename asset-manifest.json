@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.09867ea0.css",
-    "main.js": "/portfolio/static/js/main.391f8c7b.js",
+    "main.js": "/portfolio/static/js/main.be1780c7.js",
     "static/media/intranetAccueil.webp": "/portfolio/static/media/intranetAccueil.4fa12e27189a095b586f.webp",
     "static/media/IA-ML.webp": "/portfolio/static/media/IA-ML.264b57a85b36059eda13.webp",
     "static/media/thingsboard1.webp": "/portfolio/static/media/thingsboard1.6ea12cb1abed5a8934ba.webp",
@@ -17,6 +17,7 @@
     "static/media/gestionStockAccueil.webp": "/portfolio/static/media/gestionStockAccueil.64ec896746e98ac00ec7.webp",
     "static/media/drapeaubasegrue.webp": "/portfolio/static/media/drapeaubasegrue.c32ecfa06229b8b887a7.webp",
     "static/media/rôlesgsb.webp": "/portfolio/static/media/rôlesgsb.bca9e8d5f50f75094848.webp",
+    "static/media/logo_ascorel.webp": "/portfolio/static/media/logo_ascorel.6ecf41ec2d6432aa35c1.webp",
     "static/media/acg3.webp": "/portfolio/static/media/acg3.73119a3f2eba287e630d.webp",
     "static/media/accueilTicketGenerator.webp": "/portfolio/static/media/accueilTicketGenerator.215d8f1eeabc889e494d.webp",
     "static/media/gestionMedicamentMobile.webp": "/portfolio/static/media/gestionMedicamentMobile.23f81af90a4146cba817.webp",
@@ -35,10 +36,10 @@
     "static/media/iconGlobe.svg": "/portfolio/static/media/iconGlobe.2ffc4683bd500d6ebd69517e99d8b95c.svg",
     "static/media/iconFront-end.svg": "/portfolio/static/media/iconFront-end.f9e782702352e25436d69bce2c3b7aa7.svg",
     "main.09867ea0.css.map": "/portfolio/static/css/main.09867ea0.css.map",
-    "main.391f8c7b.js.map": "/portfolio/static/js/main.391f8c7b.js.map"
+    "main.be1780c7.js.map": "/portfolio/static/js/main.be1780c7.js.map"
   },
   "entrypoints": [
     "static/css/main.09867ea0.css",
-    "static/js/main.391f8c7b.js"
+    "static/js/main.be1780c7.js"
   ]
 }
