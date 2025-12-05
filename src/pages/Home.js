@@ -22,6 +22,12 @@ const Home = () => {
       description: 'BTS SIO option SLAM AFIP Formations',
       logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstorage.letudiant.fr%2Fosp%2Fcards%2F137%2Ftmp%2FLOGO-230301011731.jpg&f=1&nofb=1&ipt=8f242815342c90a35fb6d3d0a07aef6915eb71f9cd69ba5619db812615f3301a&ipo=images",
     },
+    {
+      year: '2025-2026',
+      title: 'Bachelor CDA',
+      description: 'Bachelor Concepteur Developpeur d\'Application, AFIP Formations',
+      logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstorage.letudiant.fr%2Fosp%2Fcards%2F137%2Ftmp%2FLOGO-230301011731.jpg&f=1&nofb=1&ipt=8f242815342c90a35fb6d3d0a07aef6915eb71f9cd69ba5619db812615f3301a&ipo=images",
+    },
   ];
 
   const parcoursPro = [
@@ -30,6 +36,12 @@ const Home = () => {
       title: 'Ascorel',
       description: "Alternance au sein du bureau d'étude chez Ascorel pendant mes deux années de BTS. C'est une entreprise spécialisée dans l'architecture embarquée, située à Pont-Évêque.",
       image: `${logo_ascorel}`,
+    },
+    {
+      year: '2025-2026',
+      title: 'Ascorel',
+      description: "Alternance au sein du bureau d'étude chez Ascorel pendant mon année de bachelor CDA. C'est une entreprise spécialisée dans l'architecture embarquée, située à Pont-Évêque.",
+      image: `${logo_ascorel}`,
     }
   ]
 
@@ -37,15 +49,15 @@ const Home = () => {
       <div className="App">
         <header className="hero-section text-white text-center d-flex align-items-center">
           <div className="container">
-            <h1 className="display-1 mb-4 titre">Kenji Ogier</h1>
-            <p className="lead mb-5">Développeur passionné | Créateur d'innovations</p>
+            <h1 className="display-1 mb-4 titre" style={{color: "#ffffff"}}>Kenji Ogier</h1>
+            <p className="lead mb-5" style={{color: "#ffffff"}}>Développeur passionné | Dev fullstack</p>
             <button className="btn btn-outline-light btn-lg" onClick={cvPDF}>
               Télécharger mon CV
             </button>
           </div>
         </header>
 
-        <section className="py-5 bg-light">
+        <section className="py-5">
           <div className="container">
             <h2 className="display-4 text-center mb-5">Qui suis-je ?</h2>
             <div className="row align-items-center">
@@ -73,12 +85,12 @@ const Home = () => {
             <div className="row">
               {portfolioItems.map((item, index) => (
                   <div key={index} className="col-md-6 mb-4">
-                    <div className="card h-100 shadow-sm">
+                    <div className="card h-100 shadow-sm border">
                       <div className="card-body">
                         <img src={item.logo} alt={item.title} className="img-fluid rounded shadow"
                              style={{objectFit: 'contain', height: '200px', width: '100%'}}/>
                         <h5 className="card-title">{item.title}</h5>
-                        <h6 className="card-subtitle mb-2 text-muted">{item.year}</h6>
+                        <h6 className="card-subtitle mb-2">{item.year}</h6>
                         <p className="card-text">{item.description}</p>
                       </div>
                     </div>
@@ -94,12 +106,12 @@ const Home = () => {
             <div className="row justify-content-center">
               {parcoursPro.map((item, index) => (
                   <div key={index} className="col-md-6 mb-4">
-                    <div className="card h-100 shadow-sm">
+                    <div className="card h-100 shadow-sm border">
                       <div className="card-body">
                         <img src={item.image} alt={item.title} className="img-fluid rounded shadow"
                              style={{objectFit: 'cover', height: '200px', width: '100%'}}/>
                         <h5 className="card-title">{item.title}</h5>
-                        <h6 className="card-subtitle mb-2 text-muted">{item.year}</h6>
+                        <h6 className="card-subtitle mb-2">{item.year}</h6>
                         <p className="card-text">{item.description}</p>
                       </div>
                     </div>

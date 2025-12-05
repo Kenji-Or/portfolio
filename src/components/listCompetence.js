@@ -72,6 +72,10 @@ const skillCategories = [
             {
                 name: 'Java spring boot',
                 icon: 'https://www.svgrepo.com/show/376350/spring.svg'
+            },
+            {
+                name: 'Symfony',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg'
             }
         ]
     },

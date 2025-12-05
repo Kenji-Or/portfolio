@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="container py-5 bg-light d-flex justify-content-center align-items-center flex-column" style={{ minHeight: 'calc(100vh - 190px)' }}>
+        <div className="container py-5 d-flex justify-content-center align-items-center flex-column" style={{ minHeight: 'calc(100vh - 190px)' }}>
             <div className="container text-center">
                 {/* Section Titre */}
                 <div className="mb-5">
@@ -11,7 +11,7 @@ const Contact = () => {
                 </div>
 
                 {/* Formulaire */}
-                <div className="card shadow p-4 mb-5 bg-white rounded" style={{ maxWidth: "500px", margin: "0 auto" }}>
+                <div className="card shadow p-4 mb-5 rounded" style={{ maxWidth: "500px", margin: "0 auto" }}>
                     <form action="https://formspree.io/f/myzkdrww" method="POST">
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Votre email :</label>

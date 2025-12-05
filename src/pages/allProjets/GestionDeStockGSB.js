@@ -11,7 +11,7 @@ const skills = [
     { name: "Trello", icon: `${iconTrello}` },
     { name: "Java", icon: "https://imgs.search.brave.com/RKiF688nF1busVH4a-YBVUni3i1u9gSlO2DHUgLWdsA/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZWIzMzY0ZWZh/MTE5MTVhM2E3MTEy/M2QzMDAwMWFlNTM1/OWVkMmMyNjA0OWM3/Mjc2YTFjNTI5ODkz/ZDg0NDYxMi93d3cu/amF2YS5jb20v"},
     { name: "Java Spring Boot", icon: "https://www.svgrepo.com/show/376350/spring.svg"},
-    { name: "Android Studio", icon: "https://imgs.search.brave.com/ihtNQIMzb-63o0902L9VO9Lq-keJX3Viw3mpnNZ66Y0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi81LzUxL0Fu/ZHJvaWRfU3R1ZGlv/X0xvZ29fMjAyNC5z/dmcvMjIwcHgtQW5k/cm9pZF9TdHVkaW9f/TG9nb18yMDI0LnN2/Zy5wbmc"},
+    { name: "Android Studio", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"},
     { name: "Postman", icon: "https://www.svgrepo.com/show/354202/postman-icon.svg"}
 ];
 

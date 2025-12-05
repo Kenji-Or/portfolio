@@ -1,10 +1,15 @@
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../assets/images/logo_ko.webp"
+import {Button} from "react-bootstrap";
+import { IoMoonOutline } from "react-icons/io5";
+import { MdOutlineWbSunny } from "react-icons/md";
+import { useTheme } from '../contexts/ThemeContext';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const navbarRef = useRef(null);
+    const { isDark, toggleTheme } = useTheme();
 
     const toggleNavbar = () => {
         setIsOpen(!isOpen);
@@ -50,6 +55,16 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                       <Link className="nav-link text-uppercase" to="/contact" onClick={closeNavbar}>Contact</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Button
+                      variant={isDark ? "outline-light" : "outline-dark"}
+                      className="theme-toggle-btn"
+                      onClick={toggleTheme}
+                      title={isDark ? "Passer en mode clair" : "Passer en mode sombre"}
+                    >
+                      {isDark ? <MdOutlineWbSunny /> : <IoMoonOutline />}
+                    </Button>
                   </li>
               </ul>
           </div>

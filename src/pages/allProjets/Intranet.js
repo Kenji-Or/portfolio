@@ -21,7 +21,7 @@ const skills = [
 
 const Intranet = () => {
     return (
-        <div className="container-fluid py-5 bg-light">
+        <div className="container-fluid py-5">
             <div className="container">
                 <div className="text-center mb-5">
                     <h1 className="display-4 fw-bold mb-3 titre">
@@ -31,7 +31,7 @@ const Intranet = () => {
                 {/* Section Description */}
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
-                        <h2 className="text-secondary text-center mb-4">Description du projet</h2>
+                        <h2 className="section-title text-center mb-4">Description du projet</h2>
                         <p>
                             Dans le cadre d'un projet, j'ai travaillé sur la conception d'un intranet pour une entreprise fictive, Galaxy Swiss Bourdin (GSB), un laboratoire pharmaceutique. Le but était de créer une plateforme centralisant les ressources internes et d'améliorer la communication au sein de l'entreprise.
                         </p>
