@@ -1,8 +1,9 @@
 import iconFrontEnd from "../assets/images/iconFront-end.svg"
-import iconBackEnd from "../assets/images/iconDatabase.svg"
-import iconDesign from "../assets/images/iconDesign.svg"
+import iconBackEnd from "../assets/images/iconServeur.svg"
+import iconBDD from "../assets/images/iconBDD.svg"
 import iconOutil from "../assets/images/iconGlobe.svg"
 import iconTrello from "../assets/images/icon-trello.svg";
+import iconMantine from "../assets/images/iconMantine.svg";
 
 const skillCategories = [
     {
@@ -32,16 +33,28 @@ const skillCategories = [
             {
                 name: "Axios",
                 icon: "https://axios-http.com/assets/logo.svg"
+            },
+            {
+                name: 'Mantine UI',
+                icon: `${iconMantine}`
             }
         ]
     },
     {
-        title: 'Design',
-        icon: iconDesign,
+        title: 'Bases de données',
+        icon: iconBDD,
         technologies: [
             {
-                name: 'Figma',
-                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
+                name: 'MongoDB',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
+            },
+            {
+                name: 'MySQL',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
+            },
+            {
+                name: 'PostgreSQL',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'
             }
         ]
     },
@@ -58,14 +71,6 @@ const skillCategories = [
                 icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
             },
             {
-                name: 'MongoDB',
-                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
-            },
-            {
-                name: 'MySQL',
-                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
-            },
-            {
                 name: 'PHP',
                 icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg'
             },
@@ -76,6 +81,10 @@ const skillCategories = [
             {
                 name: 'Symfony',
                 icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg'
+            },
+            {
+                name: 'Docker',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'
             }
         ]
     },
@@ -118,6 +127,22 @@ const skillCategories = [
             {
                 name: 'Android studio',
                 icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg'
+            },
+            {
+                name: 'PhpMyAdmin',
+                icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/phpmyadmin.svg'
+            },
+            {
+                name: 'Heroku',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg'
+            },
+            {
+                name: 'Notion',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg'
+            },
+            {
+                name: 'Figma',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
             }
         ]
     }

@@ -1,5 +1,6 @@
 import React from 'react';
 import logo_ascorel from '../assets/images/logo_ascorel.webp';
+import img_me from '../assets/images/img_me_home.webp';
 
 const Home = () => {
   const cvPDF = () => {
@@ -63,7 +64,7 @@ const Home = () => {
             <div className="row align-items-center">
               <div className="col-md-6 mb-4 mb-md-0">
                 <img
-                    src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=755&q=80"
+                    src={`${img_me}`}
                     alt="Kenji Ogier" className="img-fluid rounded-circle"/>
               </div>
               <div className="col-md-6">
