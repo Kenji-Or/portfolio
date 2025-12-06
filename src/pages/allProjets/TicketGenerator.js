@@ -28,9 +28,9 @@ const TicketGenerator = () => {
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
                         <h2 className="text-secondary text-center mb-4">Description</h2>
-                        <p>Notre système de pesage pour pelles est un système qui nous permet de connaître la masse soulevée par la pelleteuse.</p>
+                        <p>Notre système de pesage pelle est un système qui nous permet de connaître la masse soulevée par la pelleteuse.</p>
                         <p>Le projet que j'ai réalisé pour ce système est le suivant : j'ai créé un nouveau site en m'inspirant du site thème management interne à l'entreprise.
-                            Ce nouveau site va servir à générer des tickets de réception après le remplissage des camions. Ce projet vise à permettre aux clients de personnaliser ces tickets selon leurs besoins.</p>
+                            Ce nouveau site va servir à visualiser les tickets générer après le remplissage des camions. Ce projet vise à permettre aux clients de personnaliser ces tickets selon leurs besoins.</p>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item bg-transparent">
                                 <strong>Gestion des entités :</strong> Ajout d’un système de gestion des entités pour organiser les tickets.
@@ -61,7 +61,7 @@ const TicketGenerator = () => {
 
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
-                        <p>Une fois personnalisés, les tickets sont enregistrés sur le serveur pour être récupérés par le système de pesage des pelles.</p>
+                        <p>Une fois personnalisés, les tickets sont enregistrés sur le serveur pour être récupérés par le système de pesage pelle.</p>
                     </div>
                 </div>
 

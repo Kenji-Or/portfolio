@@ -19,7 +19,7 @@ const skills = [
 
 const CodeGenerator = () => {
     return (
-        <div className="container-fluid py-5 bg-light">
+        <div className="container-fluid py-5">
             <div className="container">
                 <div className="text-center mb-5">
                     <h1 className="display-4 fw-bold mb-3 titre">
@@ -31,15 +31,14 @@ const CodeGenerator = () => {
                     <div className="col-md-8 offset-md-2">
                         <h2 className="text-secondary text-center mb-4">Description</h2>
                         <p>
-                            Nos systèmes d'anticollision nécessitent un code d'accès pour être activés, garantissant ainsi un contrôle sécurisé des grues.
-                            Comme ces équipements sont souvent loués à différentes entreprises pour des périodes définies, un système d'authentification
-                            permet de générer un code temporaire et sécurisé, facilitant ainsi leur gestion.
+                            Nos systèmes d'anticollision (MC602-MC603) nécessitent un code d'accès pour passer en mode calibration ou avoir accès a des paramètres spéciaux, garantissant ainsi un contrôle sécurisé des grues.
+                            Lorsqu'un client a son système bloquer, le support d'Ascorel peut alors s'authentifier avec un code d'accès dans leur système. Et avoir accès a plus de paramètres.
+                            Ce site permet de générer un code temporaire et sécurisé, facilitant ainsi leur gestion.
                         </p>
                         <p>
-                            Dans le cadre de ce projet, je suis parti d'un site existant et j'ai ajouté plusieurs fonctionnalités clés :
+                            Ce site a été codé par un autre développeur et j'ai ajouté plusieurs fonctionnalités clés :
                         </p>
                         <ul className="list-group list-group-flush">
-                            <p>Première amélioration : filtrage des utilisateurs.</p>
                             <li className="list-group-item bg-transparent">
                                 <strong>Filtrage des utilisateurs :</strong> Ajout d'une fonctionnalité permettant de trier les utilisateurs selon leur entité, leur rôle et leur état,
                                 grâce à des sélecteurs avancés.
@@ -52,7 +51,6 @@ const CodeGenerator = () => {
                                     />
                                 </div>
                             </li>
-                            <p>Seconde amélioration : création d'un accès à distance au système.</p>
                             <li className="list-group-item bg-transparent">
                                 <strong>Accès à distance :</strong> Mise en place d'une tuile de connexion au service d'accès à distance,
                                 incluant des requêtes de vérification d'authentification.
@@ -67,8 +65,8 @@ const CodeGenerator = () => {
                                     />
                                 </div>
 
-                                <strong>Requête d'authentification :</strong> Création d'un système de vérification permettant de s'assurer
-                                que l'utilisateur appartient à une entité souscrite à notre service.
+                                <strong>Gestion des licences :</strong> Création d'un système de vérification permettant de s'assurer
+                                que l'utilisateur appartient à une entité souscrite à notre service via une licence.
                                 Si l'authentification est validée, un lien vers l'iframe est généré,
                                 permettant ainsi l'affichage de l'interface du système.
                                 <div className="text-center mt-5">

@@ -52,6 +52,12 @@ const projetsProfessionnel = [
         title: 'Access Code Generator',
         img: `${imageACG}`,
         link: '/projets/acg'
+    },
+    {
+        date: 'septembre 2025 - mars 2026',
+        title: 'IPCS Web',
+        img: '',
+        link: '/projets/ipcs'
     }
 ]
 
