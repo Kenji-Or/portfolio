@@ -16,9 +16,18 @@ import IPCS from "../pages/allProjets/IPCS";
 
 const AppRoutes = () => {
     const location = useLocation();
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [location.pathname]);
+  useEffect(() => {
+    // Utilise setTimeout pour s'assurer que le DOM est mis à jour
+    const scrollTimeout = setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth' // Animation fluide pour remonter en haut
+      });
+    }, 0);
+
+    return () => clearTimeout(scrollTimeout);
+  }, [location.pathname]);
   return (
         <Routes>
             <Route path="/" element={<Home />} />
