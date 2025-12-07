@@ -25,6 +25,12 @@ const projetsFormation = [
         title: 'TP SEO',
         img: `${imgPresentationSeo}`,
         link: "/projets/seo"
+    },
+    {
+        date: "Octobre 2025 - Janvier 2026",
+        title: "Application de messagerie instantanée",
+        img: "",
+        link: "/projets/appchat"
     }
 ]
 

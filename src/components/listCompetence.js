@@ -85,6 +85,10 @@ const skillCategories = [
             {
                 name: 'Docker',
                 icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'
+            },
+            {
+                name: 'Python',
+                icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
             }
         ]
     },
