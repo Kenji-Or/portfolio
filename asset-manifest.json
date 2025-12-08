@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b102ada0.css",
-    "main.js": "/portfolio/static/js/main.024092f2.js",
+    "main.css": "/portfolio/static/css/main.91d07976.css",
+    "main.js": "/portfolio/static/js/main.a2d12999.js",
     "static/media/intranetAccueil.webp": "/portfolio/static/media/intranetAccueil.4fa12e27189a095b586f.webp",
     "static/media/IA-ML.webp": "/portfolio/static/media/IA-ML.264b57a85b36059eda13.webp",
     "static/media/thingsboard1.webp": "/portfolio/static/media/thingsboard1.6ea12cb1abed5a8934ba.webp",
     "static/media/imgpresentationseo.webp": "/portfolio/static/media/imgpresentationseo.203315c548064153e1bf.webp",
+    "static/media/apprenti_codeur_python.png": "/portfolio/static/media/apprenti_codeur_python.fd4725546cb4114b3203.png",
     "static/media/seoquake.webp": "/portfolio/static/media/seoquake.4583bbedf11e1b67ca6c.webp",
     "static/media/acg5.webp": "/portfolio/static/media/acg5.c4c2e0ad8b3b4e9feb7c.webp",
     "static/media/seotestperformance.webp": "/portfolio/static/media/seotestperformance.573a89f044bfe5b9a7ca.webp",
@@ -39,11 +40,11 @@
     "static/media/iconServeur.svg": "/portfolio/static/media/iconServeur.ec5b3f769f14516d9377df859b692897.svg",
     "static/media/iconGlobe.svg": "/portfolio/static/media/iconGlobe.2ffc4683bd500d6ebd69517e99d8b95c.svg",
     "static/media/iconFront-end.svg": "/portfolio/static/media/iconFront-end.f9e782702352e25436d69bce2c3b7aa7.svg",
-    "main.b102ada0.css.map": "/portfolio/static/css/main.b102ada0.css.map",
-    "main.024092f2.js.map": "/portfolio/static/js/main.024092f2.js.map"
+    "main.91d07976.css.map": "/portfolio/static/css/main.91d07976.css.map",
+    "main.a2d12999.js.map": "/portfolio/static/js/main.a2d12999.js.map"
   },
   "entrypoints": [
-    "static/css/main.b102ada0.css",
-    "static/js/main.024092f2.js"
+    "static/css/main.91d07976.css",
+    "static/js/main.a2d12999.js"
   ]
 }
