@@ -1,5 +1,6 @@
 import React from 'react';
 import skillCategories from "../components/listCompetence";
+import certifications from "../components/listCertifications";
 
 const Competences = () => {
     return (
@@ -57,11 +58,45 @@ const Competences = () => {
                     ))}
                 </div>
 
-                {/* Closing Message */}
-                <div className="text-center mt-5">
-                    <p className="text-muted">
-                        Ces technologies me permettent de créer des applications complètes et modernes.
-                    </p>
+                {/* Certifications Section */}
+                <div className="mt-5 pt-5 border-top">
+                    <div className="text-center mb-5">
+                        <h2 className="display-5 fw-bold mb-3">
+                            <span className="text-primary">Mes Certifications</span>
+                        </h2>
+                        <p className="lead text-muted mx-auto" style={{maxWidth: '600px'}}>
+                            Certifications officielles attestant de mes compétences techniques
+                        </p>
+                    </div>
+
+                    <div className="row g-4 justify-content-center">
+                        {certifications.map((certification) => (
+                            <div key={certification.id} className="col-md-6 col-lg-4">
+                                <div className="card h-100 border-0 shadow-sm certification-card">
+                                    <div className="card-body text-center p-4">
+                                        <div className={`bg-${certification.colorClass} bg-opacity-10 p-4 rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center`} style={{width: '80px', height: '80px'}}>
+                                            <img
+                                              src={certification.img}
+                                              alt={certification.title}
+                                              className="img-fluid"
+                                              style={{width: '32px', height: '32px', objectFit: 'contain'}}
+                                            />
+                                        </div>
+                                        <h5 className="card-title mb-2">{certification.title}</h5>
+                                        <p className="text-muted small mb-3">{certification.organisme}</p>
+                                        <p className="card-text small">
+                                            {certification.description}
+                                        </p>
+                                        <div className="mt-3">
+                                            <span className={`badge bg-${certification.colorClass} bg-opacity-10 text-${certification.colorClass}`}>
+                                                {certification.year}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

@@ -132,6 +132,48 @@ body {
   box-shadow: 0 4px 15px var(--shadow) !important;
 }
 
+/* Styles pour les cartes de certification */
+.certification-card {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+}
+
+.certification-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px var(--shadow) !important;
+}
+
+.certification-card .card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+.certification-card .card-body::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transform: rotate(45deg) translate(-100%, -100%);
+  transition: transform 0.6s ease;
+}
+
+.certification-card:hover .card-body::before {
+  transform: rotate(45deg) translate(100%, 100%);
+}
+
+/* Animation pour les badges */
+.certification-card .badge {
+  transition: all 0.3s ease;
+}
+
+.certification-card:hover .badge {
+  transform: scale(1.1);
+}
+
 .card-body {
   padding: 2rem;
 }
