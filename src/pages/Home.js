@@ -5,7 +5,7 @@ import img_me from '../assets/images/img_me_home.webp';
 const Home = () => {
   const cvPDF = () => {
     const link = document.createElement('a');
-    link.href = `${process.env.PUBLIC_URL}/CV_Kenji_Ogier.pdf`; // Chemin vers le fichier PDF
+    link.href = `${process.env.PUBLIC_URL}/cv_kenji.pdf`; // Chemin vers le fichier PDF
     link.download = 'cv_Kenji_Ogier.pdf'; // Nom du fichier lors du téléchargement
     link.click(); 
   };
