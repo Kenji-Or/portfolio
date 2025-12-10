@@ -74,12 +74,12 @@ const Competences = () => {
                             <div key={certification.id} className="col-md-6 col-lg-4">
                                 <div className="card h-100 border-0 shadow-sm certification-card">
                                     <div className="card-body text-center p-4">
-                                        <div className={`bg-${certification.colorClass} bg-opacity-10 p-4 rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center`} style={{width: '80px', height: '80px'}}>
+                                        <div className={`bg-${certification.colorClass} bg-opacity-10 p-4 rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center`} style={{width: '100px', height: '100px'}}>
                                             <img
                                               src={certification.img}
                                               alt={certification.title}
                                               className="img-fluid"
-                                              style={{width: '32px', height: '32px', objectFit: 'contain'}}
+                                              style={{width: '70px', height: '70px', objectFit: 'contain'}}
                                             />
                                         </div>
                                         <h5 className="card-title mb-2">{certification.title}</h5>
