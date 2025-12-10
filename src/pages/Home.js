@@ -1,6 +1,6 @@
 import React from 'react';
 import logo_ascorel from '../assets/images/logo_ascorel.webp';
-import img_me from '../assets/images/img_me_home.webp';
+import img_me from '../assets/images/profile-me.webp';
 
 const Home = () => {
   const cvPDF = () => {
@@ -71,9 +71,9 @@ const Home = () => {
                 <h3 className="mb-4">Kenji Ogier</h3>
                 <p className="lead mb-4">Développeur d'applications passionné, je m'engage à concevoir des solutions
                   innovantes et utiles pour les utilisateurs.</p>
-                <p className="mb-4">J'ai soif d'apprendre de nouvelles compétences et technologies afin d'améliorer
+                <p className="lead mb-4">J'ai soif d'apprendre de nouvelles compétences et technologies afin d'améliorer
                   constamment mes créations et proposer des applications toujours plus performantes.</p>
-                <p className="mb-4">Mon portfolio reflète mon expérience et mon expertise, et j'espère qu'il saura
+                <p className="lead mb-4">Mon portfolio reflète mon expérience et mon expertise, et j'espère qu'il saura
                   capter votre intérêt autant que j'ai pris plaisir à développer ces projets.</p>
               </div>
             </div>
