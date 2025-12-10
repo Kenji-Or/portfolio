@@ -20,7 +20,7 @@ const Navbar = () => {
     };
 
   return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <nav className={`navbar navbar-expand-lg ${isDark ? 'navbar-dark bg-dark' : 'navbar-light bg-light'} sticky-top`}>
           <div className="container-fluid">
           {/* Logo de la navbar */}
           <Link className="navbar-brand" to="/">
