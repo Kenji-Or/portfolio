@@ -39,6 +39,15 @@ const AppChat = () => {
                         <p>
                             L'application est conteneurisée à l'aide de Docker, ce qui facilite le déploiement et la gestion de l'environnement de développement. Grâce à cette approche, j'ai pu créer une application de chat performante et évolutive, offrant aux utilisateurs une plateforme de communication moderne et efficace.
                         </p>
+                        <p>
+                            J’ai ensuite mis en place une chaîne d’intégration et de déploiement continus (CI/CD) à l’aide de GitLab.
+                            Grâce à un GitLab Runner configuré sur mon serveur, chaque push sur la branche <strong>master</strong> déclenchait automatiquement le déploiement de la dernière version de l’application en production.
+                            <br />
+                            Dépôt GitLab du projet :{" "}
+                            <a href="https://gitlab.com/k_ogier/mi3cda-chat" target="_blank" rel="noopener noreferrer">
+                                https://gitlab.com/k_ogier/mi3cda-chat
+                            </a>
+                        </p>
                         <p>Voici les principales fonctionnalités de l'application :</p>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item bg-transparent">
