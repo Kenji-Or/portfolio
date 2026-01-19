@@ -1,5 +1,7 @@
 import React from 'react';
 import iconMantine from "../../assets/images/iconMantine.svg";
+import IPCS_Web from "../../assets/images/ipcs_web.webp";
+import IPCS_old from "../../assets/images/old_ipcs.webp";
 
 const skills = [
   { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
@@ -35,6 +37,14 @@ const IPCS = () => {
                   On veut aussi rendre l'application accessible depuis n'importe quel appareil connecté à Internet, sans nécessiter d'installation locale.
                   Et cela permettrais aussi d'ajouter le pesage pelle au système IPCS.
                 </p>
+                <div className="text-center mt-5">
+                  <img
+                      src={IPCS_old}
+                      alt="Ancienne version de l'IPCS"
+                      className="img-fluid rounded"
+                      style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
+                  />
+                </div>
                 <h2 className="text-secondary text-center mb-4">Fonctionnalités principales :</h2>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item bg-transparent">Gestion des client</li>
@@ -48,6 +58,21 @@ const IPCS = () => {
                   <li className="list-group-item bg-transparent">Gestion des chargeuses</li>
                   <li className="list-group-item bg-transparent">Gestion des chargements</li>
                   <li className="list-group-item bg-transparent">Gestion des sites de chargement</li>
+                  <li className="list-group-item bg-transparent">
+                    <strong>Gestion des relations entre les données :</strong><br />
+                    Mise en place de liens cohérents entre les différents éléments du système
+                    (par exemple : association d’un chargement à un client).<br />
+                    Interface utilisateur intuitive permettant de gérer facilement ces relations,
+                    avec création automatique de liens lors de l’ajout de certains éléments.
+                  </li>
+                  <div className="text-center mt-5">
+                    <img
+                        src={IPCS_Web}
+                        alt="IPCS Web"
+                        className="img-fluid rounded"
+                        style={{ maxWidth: "100%", height: "auto", maxHeight: "600px" }}
+                    />
+                  </div>
                 </ul>
               </div>
             </div>

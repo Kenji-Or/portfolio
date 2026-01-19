@@ -6,6 +6,7 @@ import accueilIntranet from "../assets/images/intranetAccueil.webp";
 import imageACG from "../assets/images/acg.webp";
 import imageGestionStock from "../assets/images/gestionStockAccueil.webp"
 import imgPresentationSeo from "../assets/images/imgpresentationseo.webp"
+import imgIPCS from "../assets/images/ipcs_web.webp";
 
 const projetsFormation = [
     {
@@ -62,7 +63,7 @@ const projetsProfessionnel = [
     {
         date: 'septembre 2025 - mars 2026',
         title: 'IPCS Web',
-        img: '',
+        img: `${imgIPCS}`,
         link: '/projets/ipcs'
     }
 ]
