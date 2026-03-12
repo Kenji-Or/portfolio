@@ -1,4 +1,9 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+const FORMSPREE_ENDPOINT =
+    process.env.REACT_APP_FORMSPREE_ENDPOINT ||
+    "https://formspree.io/f/myzkdrww";
 
 const Contact = () => {
     return (
@@ -12,7 +17,7 @@ const Contact = () => {
 
                 {/* Formulaire */}
                 <div className="card shadow p-4 mb-5 rounded" style={{ maxWidth: "500px", margin: "0 auto" }}>
-                    <form action="https://formspree.io/f/myzkdrww" method="POST">
+                    <form action={FORMSPREE_ENDPOINT} method="POST">
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Votre email :</label>
                             <input type="email" name="email" className="form-control" id="email" required />
@@ -31,10 +36,10 @@ const Contact = () => {
                     <p className="lead">N'hésitez pas à me contacter et à me suivre sur mes réseaux professionnels.</p>
                     <div className="d-flex justify-content-center gap-3">
                         <a href="https://github.com/Kenji-Or" target="_blank" rel="noopener noreferrer" aria-label="Lien vers le profil GitHub">
-                            <img className="rounded img-fluid" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style={{ width: "50px", height: "50px" }} />
+                            <FaGithub size={50} aria-hidden="true" />
                         </a>
                         <a href="https://www.linkedin.com/in/kenji-ogier-33583b296/" target="_blank" rel="noopener noreferrer" aria-label="Lien vers le profil LinkedIn">
-                            <img className="rounded img-fluid" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style={{ width: "50px", height: "50px" }} />
+                            <FaLinkedin size={50} aria-hidden="true" />
                         </a>
                     </div>
                 </div>
