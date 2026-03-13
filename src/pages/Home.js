@@ -21,13 +21,13 @@ const Home = () => {
       year: '2023-2025',
       title: 'BTS SIO option SLAM',
       description: 'BTS SIO option SLAM AFIP Formations',
-      logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstorage.letudiant.fr%2Fosp%2Fcards%2F137%2Ftmp%2FLOGO-230301011731.jpg&f=1&nofb=1&ipt=8f242815342c90a35fb6d3d0a07aef6915eb71f9cd69ba5619db812615f3301a&ipo=images",
+      logo: "https://storage.letudiant.fr/osp/cards/137/tmp/LOGO-230301011731.jpg",
     },
     {
       year: '2025-2026',
       title: 'Bachelor CDA',
-      description: 'Bachelor Concepteur Developpeur d\'Application, AFIP Formations',
-      logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstorage.letudiant.fr%2Fosp%2Fcards%2F137%2Ftmp%2FLOGO-230301011731.jpg&f=1&nofb=1&ipt=8f242815342c90a35fb6d3d0a07aef6915eb71f9cd69ba5619db812615f3301a&ipo=images",
+      description: 'Bachelor Concepteur Développeur d\'Application, AFIP Formations',
+      logo: "https://storage.letudiant.fr/osp/cards/137/tmp/LOGO-230301011731.jpg",
     },
   ];
 
